@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
-	"github.com/prasan6813/go-serverless/pkg/handlers"
+	"github.com/prasan6813/user_go_serverless_rest_api/pkg/handlers"
 )
 
 var (
@@ -27,7 +27,7 @@ func main() {
 	lambda.Start(handler)
 }
 
-const tableName = "go-serverless"
+const tableName = "user_go_serverless_rest_api"
 
 func handler(req events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 	switch req.HTTPMethod {

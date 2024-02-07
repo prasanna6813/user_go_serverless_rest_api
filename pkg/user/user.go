@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
-	"github.com/prasan6813/go-serverless/pkg/validators"
+	"github.com/prasan6813/user_go_serverless_rest_api/pkg/validators"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
-	"github.com/prasan6813/go-serverless/pkg/user"
+	"github.com/prasan6813/user_go_serverless_rest_api/pkg/user"
 )
 
 var (

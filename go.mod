@@ -1,4 +1,4 @@
-module github.com/prasan6813/go-serverless
+module github.com/prasan6813/user_go_serverless_rest_api
 
 go 1.21.6
 
