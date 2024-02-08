@@ -5,6 +5,4 @@ cmds
 
 go mod tidy
 
-go build main.go
-
-zip -jrm main.zip main
+GOARCH=arm64 GOOS=linux go build -tags lambda.norpc -ldflags="-s -w" -o bootstrap main.go && zip -jrm bootstrap.zip bootstrap
